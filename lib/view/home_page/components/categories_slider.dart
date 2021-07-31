@@ -12,6 +12,33 @@ class Categoriesslider extends StatelessWidget {
         scrollDirection: Axis.horizontal,
         children: [
           CategoriesWidget(
+            icon: Icons.person,
+            title: 'Men',
+            onTapped: () {
+              Get.to(CategorisedItems(
+                category: 'Men',
+              ));
+            },
+          ),
+          CategoriesWidget(
+            icon: Icons.pregnant_woman_outlined,
+            title: 'Woman',
+            onTapped: () {
+              Get.to(CategorisedItems(
+                category: 'Woman',
+              ));
+            },
+          ),
+          CategoriesWidget(
+            icon: Icons.shopping_bag,
+            title: 'Fashion',
+            onTapped: () {
+              Get.to(CategorisedItems(
+                category: 'Fashion',
+              ));
+            },
+          ),
+          CategoriesWidget(
             icon: Icons.mobile_friendly,
             title: 'Mobiles & Tablets',
             onTapped: () {
@@ -48,11 +75,11 @@ class Categoriesslider extends StatelessWidget {
             },
           ),
           CategoriesWidget(
-            icon: Icons.shopping_bag,
-            title: 'Fashion',
+            icon: Icons.audiotrack_outlined,
+            title: 'Gadgets',
             onTapped: () {
               Get.to(CategorisedItems(
-                category: 'Fashion',
+                category: 'Gadgets',
               ));
             },
           ),
@@ -85,8 +112,8 @@ class CategoriesWidget extends StatelessWidget {
     return InkWell(
       onTap: onTapped,
       child: Container(
-        width: 100,
-        padding: EdgeInsets.all(5),
+        width: 80,
+        padding: EdgeInsets.all(3),
         child: Card(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -96,8 +123,9 @@ class CategoriesWidget extends StatelessWidget {
                 color: kPrimaryColor,
               ),
               SizedBox(
-                height: 5,
+                height: 10,
               ),
+              // Tamaño del texto de las categorias
               Text(
                 title,
                 textAlign: TextAlign.center,

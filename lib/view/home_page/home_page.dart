@@ -8,6 +8,7 @@ import 'package:flutter_ecommerece_using_getx/view/home_page/components/latest_p
 import 'package:flutter_ecommerece_using_getx/view/home_page/components/slider_widget.dart';
 import 'package:flutter_ecommerece_using_getx/view/home_page/components/sponsered_products.dart';
 import 'package:flutter_ecommerece_using_getx/view/home_page/components/top_products.dart';
+import 'package:flutter_ecommerece_using_getx/view/pages/about_page/about_page.dart';
 import 'package:flutter_ecommerece_using_getx/view/whishlist_page/wishlist_page.dart';
 import 'package:get/get.dart';
 
@@ -81,16 +82,22 @@ class HomePage extends StatelessWidget {
               title: Text("Privacy Policy"),
             ),
             ListTile(
+              leading: Icon(Icons.health_and_safety_outlined),
               title: Text("Help Center"),
             ),
             ListTile(
+              onTap: () {
+                Get.back();
+                Get.to(AboutPage());
+              },
+              leading: Icon(Icons.info_outline_rounded),
               title: Text("About"),
             ),
           ],
         ),
       ),
       appBar: AppBar(
-        title: Text('Shopee'),
+        title: Text('Magudali'),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.search),
@@ -113,7 +120,7 @@ class HomePage extends StatelessWidget {
             SliverList(
               delegate: SliverChildListDelegate(
                 [
-                  HomeSliderWidget(),
+                  // HomeSliderWidget(),
                 ],
               ),
             ),

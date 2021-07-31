@@ -13,7 +13,7 @@ class _HomeSliderWidgetState extends State<HomeSliderWidget> {
   @override
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 3), () {});
+    Timer(Duration(seconds: 2), () {});
   }
 
   final HomeSliderBannerController homeSliderBannerController =
@@ -26,14 +26,14 @@ class _HomeSliderWidgetState extends State<HomeSliderWidget> {
       child: GetX<HomeSliderBannerController>(
         builder: (controller) {
           return Container(
-            height: 100,
+            height: 200,
             width: MediaQuery.of(context).size.width,
             child: ListView.builder(
               scrollDirection: Axis.horizontal,
               itemCount: controller.homeSliderBanner.length,
               itemBuilder: (context, index) {
                 return Card(
-                  elevation: 4.0,
+                  elevation: 8.0,
                   child: Image.network(
                     controller.homeSliderBanner[index].imgUrl,
                     width: MediaQuery.of(context).size.width - 10,
