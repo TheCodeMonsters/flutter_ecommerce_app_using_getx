@@ -28,7 +28,7 @@ class RegisterPage extends StatelessWidget {
                       size: 80,
                     ),
                     Text(
-                      'SHOPEE',
+                      'MAGUDALI',
                       style: TextStyle(
                         color: kPrimaryColor,
                         fontSize: 20,

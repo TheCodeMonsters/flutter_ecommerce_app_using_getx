@@ -34,7 +34,7 @@ class ProductWidget extends StatelessWidget {
             marginLeft ? EdgeInsets.only(left: 8) : EdgeInsets.only(right: 8),
         height: 100,
         padding: EdgeInsets.all(8),
-        decoration: BoxDecoration(border: Border.all(color: borderColor)),
+        // decoration: BoxDecoration(border: Border.all(color: borderColor)),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -42,7 +42,7 @@ class ProductWidget extends StatelessWidget {
             Expanded(child: Image.network(image)),
             Text(
               name,
-              textAlign: TextAlign.center,
+              textAlign: TextAlign.right,
             ),
             Text(
               desc,
@@ -50,7 +50,10 @@ class ProductWidget extends StatelessWidget {
               maxLines: 2,
               style: kItemDescription(),
             ),
-            Text(price, style: kItemPrice()),
+            Text(
+              price,
+              style: kItemPrice(),
+            ),
           ],
         ),
         // color: Colors.white,

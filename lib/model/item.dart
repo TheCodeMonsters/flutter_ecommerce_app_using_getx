@@ -7,12 +7,13 @@ class Item {
   String category;
   String imgUrl;
 
-  Item(
-      {this.id,
-      this.name,
-      this.description,
-      this.price,
-      this.inStock,
-      this.imgUrl,
-      this.category});
+  Item({
+    this.id,
+    this.name,
+    this.description,
+    this.price,
+    this.inStock,
+    this.imgUrl,
+    this.category,
+  });
 }
