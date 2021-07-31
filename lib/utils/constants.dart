@@ -28,7 +28,6 @@ TextStyle kDealTitle() {
   );
 }
 
-
 Color kPrimaryColor = Colors.deepPurpleAccent;
 Color kLatestProductsColor = Colors.deepOrangeAccent;
 Color kTopProductsColor = Colors.blue;

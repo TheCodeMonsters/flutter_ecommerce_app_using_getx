@@ -29,7 +29,8 @@ class HomeSliderBannerController extends GetxController {
             'https://fiverr-res.cloudinary.com/images/t_smartwm/t_main1,q_auto,f_auto,q_auto,f_auto/deliveries/91709108/original/banner-ads_ws_1517466667/need-banner-hero-image-for-your-company.jpg',
       ),
       HomeSliderBanner(
-        imgUrl: 'https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/36232310/original/ef53041b145428db9b1e9362510d8f211de9d3c1/need-banner-hero-image-for-your-company.jpg',
+        imgUrl:
+            'https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/36232310/original/ef53041b145428db9b1e9362510d8f211de9d3c1/need-banner-hero-image-for-your-company.jpg',
       ),
     ];
     homeSliderBanner.value = sliderBannerResult;
