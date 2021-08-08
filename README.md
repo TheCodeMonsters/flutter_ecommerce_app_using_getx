@@ -1,5 +1,17 @@
 # Flutter E-Commerce App
 
+
+
+```
+git clone 
+```
+
+cd project 
+
+flutter pub get
+
+flutter run
+
 ## ScreenShots
 <table style="width:100%">
   <tr>

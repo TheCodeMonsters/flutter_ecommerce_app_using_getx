@@ -13,7 +13,7 @@ TextStyle kItemPrice() {
   );
 }
 
-TextStyle kItemDescription() {
+TextStyle kItemDescription(){
   return TextStyle(
     fontSize: 14,
     color: Colors.grey,

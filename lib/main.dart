@@ -6,12 +6,6 @@ import 'package:flutter_ecommerece_using_getx/view/splash_page/splash_page.dart'
 import 'package:get/get.dart';
 
 void main() => runApp(MyApp());
-// void main() => runApp(
-//       DevicePreview(
-//         enabled: !kReleaseMode,
-//         builder: (context) => MyApp(),
-//       ),
-//     );
 
 class MyApp extends StatelessWidget {
   @override
