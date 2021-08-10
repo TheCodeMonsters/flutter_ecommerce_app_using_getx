@@ -1,44 +1,32 @@
 # Flutter E-Commerce App
 
+Demostracion de un aplicacion e-commerce utilizando Flutter con GetX.
 
+- Clonar el proyecto a su computador
+```
+git clone git@github.com:manuelduarte077/flutter_ecommerce_app_using_getx.git
 
 ```
-git clone 
+- Navegar a la carpeta
 ```
+cd flutter_ecommerce_app_using_getx
 
+```
+- Ejecutar el proyecto
+```
+flutter run 
+
+```
 cd project 
 
 flutter pub get
 
 flutter run
 
-## ScreenShots
-<table style="width:100%">
-  <tr>
-    <th>1. Home Screen</th>
-    <th>2. Desc Screen</th> 
-  </tr>
-  <tr>
-    <td><img src="assets/docs/1.png"/></td>
-    <td><img src="assets/docs/2.png"/></td>
-    <td><img src="assets/docs/3.png"/></td>
-    <td><img src="assets/docs/4.png"/></td>
-  </tr>
-  <tr>
-    <td><img src="assets/docs/5.png"/></td>
-    <td><img src="assets/docs/6.png"/></td>
-    <td><img src="assets/docs/7.png"/></td>
-    <td><img src="assets/docs/8.png"/></td>
-  </tr>  
-  <tr>
-    <td><img src="assets/docs/9.png"/></td>
-    <td><img src="assets/docs/10.png"/></td>
-    <td><img src="assets/docs/11.png"/></td>
-    <td><img src="assets/docs/12.png"/></td>
-  </tr>
-  <tr>
-    <td><img src="assets/docs/13.png"/></td>
-    <td><img src="assets/docs/14.png"/></td>
-    <td><img src="assets/docs/15.png"/></td>
-  </tr>
-</table>
+# Flutter Proof of Concept
+
+![Flutter ScreenShots](assets/docs/1.png)  | ![Flutter ScreenShots](assets/docs/2.png)  | ![Flutter ScreenShots](assets/docs/3.png)  | ![Flutter ScreenShots](assets/docs/4.png) 
+-------------------------------------------|--------------------------------------------|--------------------------------------------|-------------------------------------------
+![Flutter ScreenShots](assets/docs/5.png)  | ![Flutter ScreenShots](assets/docs/6.png)  | ![Flutter ScreenShots](assets/docs/7.png)  | ![Flutter ScreenShots](assets/docs/8.png) 
+![Flutter ScreenShots](assets/docs/9.png)  | ![Flutter ScreenShots](assets/docs/10.png) | ![Flutter ScreenShots](assets/docs/11.png) | ![Flutter ScreenShots](assets/docs/12.png)
+![Flutter ScreenShots](assets/docs/13.png) | ![Flutter ScreenShots](assets/docs/15.png) |                                           
