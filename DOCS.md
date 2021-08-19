@@ -51,7 +51,7 @@ abstract class Cache<T> {
 extension MyFancyList<T> on List<T> { ... }
 ```
 
-# lowerCamelCase
+### lowerCamelCase
 Debemos usar esta convención para nombrar:
 
 - Class members
@@ -61,6 +61,42 @@ Debemos usar esta convención para nombrar:
 - Named parameters
 - Constant/Final names
 
+```dart
+// Class members (httpRequest).
+HttpRequest httpRequest;
+
+// Functions (align).
+void align(bool clearItems) {
+  // ...
+}
+
+// Parameters (clearItems).
+void align(bool clearItems) {
+  // ...
+}
+
+// Named parameters (clearItems).
+void align({bool clearItems}) {
+  // ...
+}
+
+// Constant/Final names (pi, urlScheme).
+const pi = 3.14;
+final urlScheme = RegExp('^([a-z]+):');
+```
+
+### lowercase_with_underscores
+Debemos usar esta convención para nombrar:
+
+Libraries
+
+Packages
+
+Directories
+
+Source files
+
+Named import
 ```dart
 library peg_parser.source_scanner;
 
