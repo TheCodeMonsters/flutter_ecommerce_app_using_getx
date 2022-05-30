@@ -82,31 +82,5 @@ encontrar paquetes en [pup.dev](https://pub.dev/ "pup.dev")
   
 ------------
 
-# Arbol de Carpetas
-
-```
-Magudali-E-Commerce
-├───proof_concept_1
-│   ├───android
-│   ├───assets
-│   ├───ios
-│   ├───lib
-│   │    └───controller
-│   │    └───model
-│   │    └───utils
-│   │    └───view
-│   │    └main.dart
-│   └───test
 
 
-```
-
-
-
-# Flutter Proof of Concept
-
-![Flutter ScreenShots](assets/docs/1.png)  | ![Flutter ScreenShots](assets/docs/2.png)  | ![Flutter ScreenShots](assets/docs/3.png)  | ![Flutter ScreenShots](assets/docs/4.png) 
--------------------------------------------|--------------------------------------------|--------------------------------------------|-------------------------------------------
-![Flutter ScreenShots](assets/docs/5.png)  | ![Flutter ScreenShots](assets/docs/6.png)  | ![Flutter ScreenShots](assets/docs/7.png)  | ![Flutter ScreenShots](assets/docs/8.png) 
-![Flutter ScreenShots](assets/docs/9.png)  | ![Flutter ScreenShots](assets/docs/10.png) | ![Flutter ScreenShots](assets/docs/11.png) | ![Flutter ScreenShots](assets/docs/12.png)
-![Flutter ScreenShots](assets/docs/13.png) | ![Flutter ScreenShots](assets/docs/15.png) |                                           
